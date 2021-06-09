@@ -1,0 +1,13 @@
+.intro {
+  margin-left: 400px;
+    width: 400px;
+    height: 300px;
+    background-color: rgb(219, 219, 219);
+  }
+
+.bodyContainer{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}

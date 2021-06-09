@@ -1,0 +1,32 @@
+{
+    "victor": {
+        "id": 1,
+        "name": "Vitek",
+        "flag": true
+
+    },
+    "gena": {
+        "id": 2,
+        "name": "Genka",
+        "flag": true
+
+    },
+    "vova": {
+        "id": 3,
+        "name": "Vovka",
+        "flag": false
+
+    },
+    "petr": {
+        "id": 4,
+        "name": "Petruha",
+        "flag": false
+
+    },
+    "dima": {
+        "id": 5,
+        "name": "Dimasik",
+        "flag": true
+
+    }
+}
