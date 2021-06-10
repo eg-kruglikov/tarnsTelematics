@@ -1,21 +1,13 @@
 function createAnalytics(params) {
-    let counter = 0;
+    let counter = [];
     let isDestroy = false;
-    const listener = () => counter++
+    const listener = () => { counter.push(document) }
     document.addEventListener('click', listener);
-
+    console.log(counter);
     return {
-        destroy() {
-            document.removeEventListener('click', listener);
-            isDestroy = true
-        },
 
-        getClicks() {
-            if(isDestroy){
-                return 'Analytics is destoyed'
-            }
-            return counter
-        }
+
+    
     }
 }
 

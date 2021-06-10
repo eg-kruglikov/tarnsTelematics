@@ -1,72 +1,66 @@
-{
-    "bread": {
-        "id": 11,
-        "parant_id" : 1,
-        "name": "bread",
-        "flag": true
 
-    },
-    "maggot": {
-        "id":12,
-        "parant_id" : 1,
-        "name": "maggot",
-        "flag": false
+    [
 
-    },
-    "flies": {
-        "id": 21,
-        "parant_id" : 2,
-        "name": "flies",
-        "flag": true
-
-    },
-    "fish": {
-        "id": 22,
-        "parant_id" : 2,
-        "name": "fish",
-        "flag": true
-
-    },
-    "ice": {
-        "id": 31,
-        "parant_id" : 3,
-        "name": "ice",
-        "flag": false
-
-    },
-    "box": {
-        "id": 32,
-        "parant_id" : 3,
-        "name": "box",
-        "flag": false
-
-    },
-    "bobber": {
-        "id": 41,
-        "parant_id" : 4,
-        "name": "bobber",
-        "flag": false
-
-    },
-    "worms": {
-        "id": 42,
-        "parant_id" : 4,
-        "name": "worms",
-        "flag": false
-
-    },
-    "waders": {
-        "id": 51,
-        "parant_id" : 5,
-        "name": "waders",
-        "flag": true
-
-    },
-    "carp": {
-        "id": 52,
-        "parant_id" : 5,
-        "name": "carp",
-        "flag": true
-
-    }
-}
+        {
+            "id": 11,
+            "parant_id": 1,
+            "name": "bread",
+            "flag": true
+        },
+        {
+            "id": 12,
+            "parant_id": 1,
+            "name": "maggot",
+            "flag": false
+        },
+        {
+            "id": 21,
+            "parant_id": 2,
+            "name": "flies",
+            "flag": true
+        },
+        {
+            "id": 22,
+            "parant_id": 2,
+            "name": "fish",
+            "flag": true
+        },
+        {
+            "id": 31,
+            "parant_id": 3,
+            "name": "ice",
+            "flag": false
+        },
+        {
+            "id": 32,
+            "parant_id": 3,
+            "name": "box",
+            "flag": false
+        },
+        {
+            "id": 41,
+            "parant_id": 4,
+            "name": "bobber",
+            "flag": false
+        },
+        {
+            "id": 42,
+            "parant_id": 4,
+            "name": "worms",
+            "flag": false
+        },
+        {
+            "id": 51,
+            "parant_id": 5,
+            "name": "waders",
+            "flag": true
+        },
+        {
+            "id": 52,
+            "parant_id": 5,
+            "name": "carp",
+            "flag": true
+        }
+        
+    ]
+    

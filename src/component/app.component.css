@@ -11,3 +11,9 @@
   justify-content: space-around;
   align-items: center;
 }
+
+.historyCss{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

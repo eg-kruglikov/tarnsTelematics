@@ -18,7 +18,8 @@ module.exports = {
         new HTMLWebpackPlugins({
             template: './index.html'
         }),
-        new CleanWebpackPlugin()
+        new CleanWebpackPlugin(),
+        
     ],
     devServer: {
         overlay: true,

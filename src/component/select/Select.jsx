@@ -1,14 +1,29 @@
-import React from 'react'
+import React, { useEffect } from 'react';
+import { useSelector, useDispatch } from "react-redux";
+import { getCategorys } from '../../redux/actionCreators/categorysAC';
+import { getItemId } from '../../redux/actionCreators/itemsAC';
 
 export default function Select() {
+
+    const dispatch = useDispatch()
+    const categorys = useSelector(state => state.categorys)
+
+    useEffect(() => {
+    
+        dispatch(getCategorys())
+    }, [])
+
+    console.log(window.analytics);
+
+    console.log('categorys--------_>', categorys);
+ 
+
     return (
         <div>
 
-            <select className="" required aria-label="select example">
-                <option value="">Откройте это меню выбора</option>
-                <option value="1">Один</option>
-                <option value="2">Два</option>
-                <option value="3">Три</option>
+            <select onChange={(e)=>{dispatch(getItemId(e.target.value))}} className="" required aria-label="select example">
+                {categorys?.map(el => <option onClick={()=>{console.log(el.id)}} key={el.id} value={el.id}>{el.name}</option>)}
+           
             </select>
         </div>
     )
